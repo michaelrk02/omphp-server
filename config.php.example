@@ -1,0 +1,16 @@
+<?php
+
+// Server URL
+define('OM_SERVER_URL', 'http://omphp-server.localhost/');
+
+// Server secret key
+define('OM_SECRET_KEY', 'secret');
+
+// Default access level (public or protected)
+define('OM_DEFAULT_ACCESS', 'protected');
+
+// Default cache age (in seconds)
+define('OM_DEFAULT_CACHE_AGE', 86400);
+
+// Default object URL expiration (in seconds)
+define('OM_DEFAULT_TTL', 1800);
