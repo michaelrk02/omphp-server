@@ -55,6 +55,7 @@ if ($fp === false) {
 
 http_response_code(200);
 
+header('Access-Control-Allow-Origin: *');
 header('Content-Type: '.$attributes['mime_type']);
 if ($attributes['access'] === 'public') {
     header('Cache-Control: max-age='.$attributes['cache_age']);
